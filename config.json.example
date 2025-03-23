@@ -1,0 +1,24 @@
+{
+    "tv": {
+        "ip": "YOUR_TV_IP_HERE",
+        "token_file": "tv_token.txt",
+        "polling_interval": 5
+    },
+    "api_keys": {
+        "youtube": "YOUR_YOUTUBE_API_KEY_HERE",
+        "openai": "YOUR_OPENAI_API_KEY_HERE"
+    },
+    "watch_time_limits": {
+        "baseball": 1800,
+        "gaming": 3600,
+        "news": 1200,
+        "music": 2400,
+        "cooking": 1800,
+        "tech": 2700,
+        "movies": 7200
+    },
+    "system": {
+        "logs_dir": "logs",
+        "reset_interval": "daily"
+    }
+}
