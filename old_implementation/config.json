@@ -1,0 +1,18 @@
+{
+    "tv": {
+        "polling_interval": 60
+    },
+    "watch_time_limits": {
+        "baseball": 1800,
+        "gaming": 3600,
+        "news": 1200,
+        "music": 2400,
+        "cooking": 1800,
+        "tech": 2700,
+        "movies": 7200
+    },
+    "system": {
+        "logs_dir": "logs",
+        "reset_interval": "daily"
+    }
+}

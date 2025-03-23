@@ -1,19 +1,18 @@
-# Environment variables and sensitive files
+# Environment variables and sensitive data
 .env
-config.json
+config/.env
 
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Token file
-tv_token.txt
-
-# Logs directory
+# Log files and data
 logs/
+*.log
 
-# Python cache
+# Temporary and backup files
+temp/
+backup_*/
+*.bak
+*.bak2
+
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -35,7 +34,15 @@ wheels/
 .installed.cfg
 *.egg
 
-# IDE files
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Token file
+tv_token.txt
+
+# IDE specific files
 .vscode/
 .idea/
 *.swp
